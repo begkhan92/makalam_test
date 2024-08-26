@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:makalam_test/bloc/articles_bloc/article_bloc.dart';
 import 'package:makalam_test/bloc/articles_bloc/article_state.dart';
 import 'package:makalam_test/bloc/articles_bloc/article_event.dart';
-import 'package:makalam_test/repository/articles/article_card.dart';
+import 'package:makalam_test/features/main_page/article_card.dart';
 
 class ArticleScreen extends StatefulWidget {
   const ArticleScreen({super.key});

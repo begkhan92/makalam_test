@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:makalam_test/bloc/articles_bloc/article_bloc.dart';
 import 'package:makalam_test/bloc/articles_bloc/article_event.dart';
 import 'package:makalam_test/repository/articles/article_repository.dart';
-import 'package:makalam_test/repository/articles/article_screen.dart';
+import 'package:makalam_test/features/main_page/article_screen.dart';
 
 void main() {
   final Dio dio = Dio();
